@@ -8,3 +8,8 @@
 ;JMP = jump
 ;INC = increase
 ;DEC = decrease
+
+
+;db = 8 bit
+;dw = 16 bit
+;
