@@ -7,14 +7,19 @@ var2 db ?
 
 main proc
     
-    mov ax, @data
+   mov ax, @data
     mov ds,ax
     
     mov ah,1
     int 21h
-    mov var2
-    add var1,var2
-    mov dl,vr1
+    mov var2  ,al
+    
+    mov ah,2
+    add var1,48
+    mov dl,var1
+    int 21h
+    mov dl,var2
+    int 21h
     
     
 main endp
