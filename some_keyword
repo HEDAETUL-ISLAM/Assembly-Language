@@ -12,4 +12,6 @@
 
 ;db = 8 bit
 ;dw = 16 bit
-;
+;ds = data segment
+;@data = to find data from registar
+;lea = for prontstring
