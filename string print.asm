@@ -21,7 +21,7 @@ main proc
     int 21h
     
     lea dx,msg2   ; load msg1 address
-    mov ah,9
+    mov ah,9      ; for string print used 9
     int 21h
     
 main endp
