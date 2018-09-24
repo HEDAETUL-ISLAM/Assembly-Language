@@ -1,0 +1,10 @@
+;CMP = compare
+;JG  = jump if greater than
+;JL  = jump if less
+;JGE = jump if greater than or equal
+;JNG = jump if not greater than
+;JE  = jump if equal
+;JNE = jump if not equal
+;JMP = jump
+;INC = increase
+;DEC = decrease
