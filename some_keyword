@@ -15,3 +15,7 @@
 ;ds = data segment
 ;@data = to find data from registar
 ;lea = for print  string  Load effective assress
+
+;xchg bh,ch  for exchange number
+;mov ah,4ch for exit DOS mode
+;
