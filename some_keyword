@@ -18,4 +18,25 @@
 
 ;xchg bh,ch  for exchange number
 ;mov ah,4ch for exit DOS mode
-;
+;small ----> code
+       |          In one segment
+       |---> data
+       
+;Medium ---> code More then one segment
+       |          
+       |---> data  In one segment
+       
+;Compact ---> code  1
+       |          
+       |---> data  More then one segment
+       
+;Large ----> code  More then one segment
+       |          
+       |---> data  More then one segment  array size<=64kyb
+       
+;Huge ----> code  More then one segment  
+       |         
+       |---> data  More then one segment  array size<=64kyb  
+       
+;mov bh,35h
+  neg bh                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
