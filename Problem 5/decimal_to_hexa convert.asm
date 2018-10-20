@@ -27,7 +27,11 @@ main proc
         je input
         cmp al,'y'
         je input
-        jmp nothing
+        cmp al,'N'
+        je nothing
+        cmp al,'n'
+        je nothing
+        jmp invalid_input
         
         input:
             mov ah,9
