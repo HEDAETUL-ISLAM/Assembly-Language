@@ -3,7 +3,7 @@
 .data
 .code
  
-msg1 db 'input a uppercase alphabet: $'
+msg1 db 'input a lower case alphabet: $'
 msg2 db 'upper case is:  $'
 main proc
     
